@@ -35,12 +35,12 @@ sudo make
 
 ## Usage
 ```bash
-preprocessor.sh <iperf_json_input> <output_directory>
-Example: preprocessor.sh my_test.json simulation_results
+preprocessor.sh <iperf_json_input> <TCP|UDP> <output_directory>
+Example: preprocessor.sh my_test.json TCP simulation_results
 ```
 
 ```bash
-plot_iperf.sh <iperf_json_file>
+plot_iperf.sh <iperf_json_file> UDP
 Example: plot_iperf.sh my_test.json
 ```
 ### Sample run in mininet:

@@ -1,5 +1,5 @@
-set terminal pdf
-set output 'jitter.pdf'
+set terminal pngcairo size 1024,768
+set output 'jitter.png'
 set datafile separator " "
 
 #set xdata time

@@ -1,5 +1,5 @@
-set terminal pdf
-set output 'retransmits.pdf'
+set terminal pngcairo size 1024,768
+set output 'retransmits.png'
 set datafile separator " "
 
 #set xdata time

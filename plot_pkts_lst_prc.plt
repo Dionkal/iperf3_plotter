@@ -1,5 +1,5 @@
-set terminal pdf
-set output 'pkts_lst_prc.pdf'
+set terminal pngcairo size 1024,768
+set output 'pkts_lst_prc.png'
 set datafile separator " "
 
 #set xdata time

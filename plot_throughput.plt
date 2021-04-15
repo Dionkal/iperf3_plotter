@@ -1,5 +1,5 @@
-set terminal pdf
-set output 'throughput.pdf'
+set terminal pngcairo size 1024,768
+set output 'throughput.png'
 set datafile separator " "
 
 #set xdata time
